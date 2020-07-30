@@ -12,4 +12,5 @@ def my_collect(array)
     array
   else
     new_array
+  end
 end
