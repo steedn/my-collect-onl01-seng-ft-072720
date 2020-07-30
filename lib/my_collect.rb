@@ -6,7 +6,6 @@ def my_collect(array)
   while array.length > 0
     new_array << yield(array[i])
     i += 1
-    array
     # binding.pry
   end
 end
