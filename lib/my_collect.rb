@@ -8,4 +8,5 @@ def my_collect(array)
     i += 1
     # binding.pry
   end
+  new_array
 end
