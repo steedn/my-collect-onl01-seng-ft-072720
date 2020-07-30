@@ -7,7 +7,9 @@ def my_collect(array)
     new_array << yield(array[i])
     i += 1
     # binding.pry
-    array
   end
-  new_array
+  if new_array == nil
+    array
+  else
+    new_array
 end
